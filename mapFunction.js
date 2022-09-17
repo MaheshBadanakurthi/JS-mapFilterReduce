@@ -1,4 +1,4 @@
-// map for multiplying numbers
+// // map for multiplying numbers
 // let numbers=[123,456,3451,23,123]
 // let newNumbers=numbers.map(mapFunction);
 //  function mapFunction(num){
@@ -19,7 +19,7 @@
 
 
 //objects
-let samObject=[{key:'movie', value:'RRR'},     {key:'Music',value:'Keeravani'},    {key:'Heros' ,value:'NTR RamCharan'}]
+let samObject=[{key:'movie', value:'RRR'},     {key:'Music',value:'Keeravani'},    {key:'Heros' ,value:'NTR RamCharan'},{key:'Heros' ,value:'NTR RamCharan'},{key:'Heros' ,value:'NTR RamCharan'}]
 let result=samObject.map(({key,value})=>({[key]:value}));
 console.log(result)
 
